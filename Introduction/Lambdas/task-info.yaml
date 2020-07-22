@@ -4,7 +4,7 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 82
+  - offset: 78
     length: 6
     placeholder_text: TODO()
     initial_state:
@@ -13,7 +13,7 @@ files:
     initialized_from_dependency: false
     possible_answer: it % 2 == 0
     selected: false
-    status: Unchecked
+    status: Solved
   text: |
     fun containsEven(collection: Collection<Int>): Boolean =
             collection.any { TODO() }
@@ -36,5 +36,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 22 Jul 2020 17:41:40 UTC
 record: -1
